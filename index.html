@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- BOOTSTRAP LINK  -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+   <!-- CSS LINK -->
+    <link rel="stylesheet" href="styles.css">
+
+   <!-- FLATICON LINK -->
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css">
+
+   <title>Bootstrap</title>
+</head>
+<body>
+
+   <!-- NAVBAR -->
+   <section class="bg-body-tertiary px-2 px-sm-4 px-lg-5 py-3">
+      <header class="bg-body-tertiary">
+         <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#">Bootstrap Website</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     More
+                  </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Purchase</a></li>
+               </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+         </div>
+      </div>
+    </nav>
+   </header>
+   </section>
+
+   <!-- HERO SECTION -->
+    <section class="bg-body-tertiary d-flex flex-column-reverse flex-lg-row w-100 p-4 p-lg-5">
+      <div class="w-100 w-lg-50 d-flex flex-column align-items-center align-items-lg-start justify-content-center mt-4 mt-lg-0">
+         <h1 class="fs-2 fs-md-1 fw-semibold">Become a <span class="text-warning">Web Developer</span></h1>
+         <p class=" fs-4 text-center text-lg-start ">We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role</p>
+         <button type="button" class="btn btn-primary fs-5 p-2 w-75 w-md-50">Start The Enrollment</button>
+      </div>
+
+      <div class="w-100 w-lg-50">
+         <img src="./showcase.svg" alt="hero-image" class="w-100 ">
+      </div>
+    </section>
+
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="bg-primary p-5 text-light">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6 d-flex align-items-center">
+               <h3>Sign up for our Newsletter</h3>
+            </div>
+
+            <div class="col-md-6">
+               <div class="input-group mb-3">
+                  <input type="email" class="form-control form-control-lg" placeholder="Email">
+                  <button type="button" class="btn btn-dark btn-lg">Submit</button>
+               </div>
+            </div>
+         </div>
+      </div>
+    </section>
+   
+<!-- CARD SECTION -->
+<section class="p-5">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4 text-center">
+            <div class="mt-sm-5 m-sm-0 mx-5 my-3">
+               <div class="card bg-dark text-light py-4">
+                  <div class="card-body">
+                     <h5 class="card-title d-flex flex-column fs-2 fw-bold mt-2">
+                        <i class="fi fi-rs-laptop"></i>
+                        Virtual
+                     </h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <div class="col-md-4 text-center">
+            <div class="mt-sm-5 m-sm-0 mx-5 my-3">
+               <div class="card bg-dark text-light py-4">
+                  <div class="card-body">
+                     <h5 class="card-title d-flex flex-column fs-2 fw-bold mt-2">
+                        <i class="fi fi-rs-user"></i>
+                        Hybrid
+                     </h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-4 text-center">
+            <div class="mt-sm-5 m-sm-0 mx-5 my-3">
+               <div class="card bg-dark text-light py-4">
+                  <div class="card-body">
+                     <h5 class="card-title d-flex flex-column fs-2 fw-bold mt-2">
+                        <i class="fi fi-rs-person-praying"></i>
+                        Person
+                     </h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                     <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+<!-- Learn the fundamentals-->
+
+<section class="mt-5">
+   <div class="container p-4">
+      <div class="row d-flex justify-content-center align-items-center p-5">
+         <div class="col-md-6">
+            <img src="./fundamentals.svg" alt="fundamental" class="img-fluid p-md-3">
+         </div>
+         
+         <div class="col-md-6 lead mt-4">
+            <h1>
+               Learn the fundamentals
+            </h1> 
+            <p>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis esse dolor provident minima ut ratione distinctio non deserunt veritatis vitae inventore, dolorem totam rerum molestias cum, dolore quis labore sit?
+            </p>
+
+            <p>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis esse dolor provident minima ut ratione distinctio non deserunt veritatis vitae inventore, dolorem totam rerum molestias cum, dolore quis labore sit?
+            </p>
+            <button type="button" class="btn btn-lg btn-secondary text-white"> > Read More</button>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+<!-- Learn React-->
+
+<section class="mt-5 bg-dark text-white">
+   <div class="container p-4">
+      <div class="row d-flex justify-content-center align-items-center p-5">
+         
+         
+         <div class="col-md-6 lead mt-4">
+            <h1>
+               Learn the React
+            </h1> 
+            <p>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis esse dolor provident minima ut ratione distinctio non deserunt veritatis vitae inventore, dolorem totam rerum molestias cum, dolore quis labore sit?
+            </p>
+
+            <p>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis esse dolor provident minima ut ratione distinctio non deserunt veritatis vitae inventore, dolorem totam rerum molestias cum, dolore quis labore sit?
+            </p>
+            <button type="button" class="btn btn-lg btn-secondary text-white"> > Read More</button>
+         </div>
+
+         <div class="col-md-6">
+
+            <img src="./react.svg" alt="fundamental" class="img-fluid p-md-3">
+         </div>
+         </div>
+
+      </div>
+   </div>
+</section>
+
+
+<!-- Accordion-->
+<section class="p-5">
+
+   <h3 class="text-center fw-normal">Frequently Asked Questions</h3>
+
+   <div class="accordion accordion-flush px-md-5" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Where exactly are you located?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            How much does it cost to attend?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            What do I need to learn?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Instructor Section-->
+
+<section class="bg-primary py-5">
+   <div class="text-white text-center">
+      <h3>Our Instructors</h3>
+      <p class="fs-4">Our Instructors all have 5+ years working as a web developer in the industry</p>
+   </div>
+
+   <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-5 py-3">
+      <div class="card w-sm-75 w-lg-25">
+         <img src="./img-7.jpg" class="card-img-top" alt="img">
+         <div class="card-body">
+           <h5 class="card-title">John Doe</h5>
+           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         </div>
+         
+         
+         <div class="mb-4">
+            <ul class="social-icons">
+               <li><img src="/instagram.svg" alt="insta" class="icon"></li>
+               <li><img src="/twitter.svg" alt="x" class="icon"></li>
+               <li><img src="/instagram.svg" alt="insta" class="icon"></li>
+               <li><img src="/twitter.svg" alt="x" class="icon"></li>
+            </ul>
+         </div>
+      </div>
+
+      <div class="card w-sm-75 w-lg-25">
+
+         <img src="./img-7.jpg" class="card-img-top" alt="img">
+         <div class="card-body">
+            <h5 class="card-title">John Doe</h5>
+           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         </div>
+         
+         
+         <div class="mb-4">
+            <ul class="social-icons">
+               <li><img src="/instagram.svg" alt="insta" class="icon"></li>
+               <li><img src="/twitter.svg" alt="x" class="icon"></li>
+               <li><img src="/instagram.svg" alt="insta" class="icon"></li>
+               <li><img src="/twitter.svg" alt="x" class="icon"></li>
+            </ul>
+         </div>
+      </div>
+
+      <div class="card w-sm-75 w-lg-25">
+
+         <img src="./img-7.jpg" class="card-img-top" alt="img">
+         <div class="card-body">
+            <h5 class="card-title">John Doe</h5>
+           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+         </div>
+         
+         
+         <div class="mb-4">
+            <ul class="social-icons">
+               <li><img src="/instagram.svg" alt="insta" class="icon"></li>
+               <li><img src="/twitter.svg" alt="x" class="icon"></li>
+               <li><img src="/instagram.svg" alt="insta" class="icon"></li>
+               <li><img src="/twitter.svg" alt="x" class="icon"></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   
+</section>
+ 
+ <!-- BOOTSTRAP SCRIPT LINK -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
